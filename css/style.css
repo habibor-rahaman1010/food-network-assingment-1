@@ -97,3 +97,48 @@ body {
 .about-detail .food-button {
   margin-top: 50px;
 }
+.recipie h1 {
+  margin-top: 50px;
+  text-align: center;
+  font-size: 50px;
+  color: gray;
+}
+.recipie p {
+  text-align: center;
+  font-size: 22px;
+  color: rgb(78, 78, 78);
+  margin: 2% 16%;
+  line-height: 30px;
+  letter-spacing: 1px;
+}
+.all-recipies {
+  display: flex;
+  margin: 4% 0%;
+  margin-left: 3%;
+  margin-right: 7%;
+}
+.all-recipies .recipies-food {
+  width: 50%;
+  margin-left: 4%;
+  padding: 20px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 30px;
+  box-shadow: 10px 10px 50px rgb(194, 194, 194);
+}
+.recipies-food h1 {
+  color: rgb(56, 56, 56);
+  margin-top: 15px;
+  font-size: 33px;
+  margin-bottom: 15px;
+  font-weight: 600;
+}
+.recipies-food p {
+  font-size: 18px;
+  color: rgb(85, 85, 85);
+  letter-spacing: 1px;
+  line-height: 25px;
+  margin-bottom: 15px;
+}
+.all-recipies .recipies-food img {
+  width: 100%;
+}
